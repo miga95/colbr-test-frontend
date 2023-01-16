@@ -1,0 +1,186 @@
+@import './nav.css';
+@import './questions.css';
+@import './dashboard.css';
+body{
+    background-color: #1C1E33;
+    margin: 0;
+}
+button:hover{
+    cursor: pointer;
+}
+
+.register-page-container{
+    width: 462px;
+    margin: auto;
+}
+.title-div{
+    margin-top: 122px;
+}
+
+.title-div p {
+    font-family: 'Geomanist', sans-serif ;
+    text-align-last: left;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.login-link-button{
+    font-family: 'Geomanist', sans-serif;
+    color: #fff;
+    font-size: 15px;
+}
+
+h1{
+    font-family: 'Geomanist', sans-serif;
+    color: white;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 40px;
+    
+}
+
+.register-form-container{
+    margin-top: 51px;
+}
+
+.input-container {
+    width: 394px;
+    background-image:  linear-gradient(194.04deg, #1C337F 0%, #DF2A6B 100%);
+    border-radius: 200px;
+    padding: 1px;
+    margin-top: 25px;
+    position: relative;
+}
+.input-container.prenom.asterisk::after{
+    content: '*';
+    position: absolute;
+    top: 22px;
+    left: 73px;
+    color: #ABAECA;
+    font-size: 10px;
+}
+
+.input-container.nom.asterisk::after{
+    content: '*';
+    position: absolute;
+    top: 22px;
+    left: 55px;
+    color: #ABAECA;
+    font-size: 10px;
+}
+.input-container.email.asterisk::after{
+    content: '*';
+    position: absolute;
+    top: 22px;
+    left: 60px;
+    color: #ABAECA;
+    font-size: 10px;
+}
+
+input{
+    display: block;
+    padding: 20px 25px !important; 
+    box-sizing: border-box ;
+    width: 100%;
+    border-radius: 200px; 
+    background-color: #1C1E33;
+    border: transparent;
+    font-family: 'Geomanist', sans-serif;
+    color: #fff;
+    outline: none;
+} 
+input:focus{
+    box-shadow: 5px 3px 5px 1px rgb(137, 76, 174);
+    transition: ease 0.3s;
+}
+
+input::placeholder{
+    color: #ABAECA;
+}
+
+.input-container.password{
+    margin-top: 5px;
+}
+.password-label{
+    position: relative;
+    top: 13px;
+    left: 20px;
+    background-color: #1C1E33;
+    color: #ABAECA;
+    font-family: 'Geomanist', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    padding: 0px 5px;
+    z-index: 2;
+}
+.password-label::after{
+    display: none;
+    z-index: 2;
+    content: "";
+    position: absolute;
+    left: 329px;
+    top: 26.33px;
+    bottom: 0;
+    width: 14.58px;
+    height: 11.17px;
+    background: url("../public/check.svg");
+    background-repeat: no-repeat;
+}
+.asterisk{
+    position: relative;
+    bottom: 1px;
+}
+.register-button{
+    width: 400px;
+    margin-top: 15px;
+    border-radius: 200px;
+    padding: 25px 35px;
+    border: 0px;
+    background: linear-gradient(194.04deg, #1C337F 0%, #DF2A6B 100%);
+    font-family: 'Geomanist', sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+.register-button-text{
+    color: #fff;
+}
+    
+/* loginPage */
+.login-form-container{
+    margin-top: 44px;
+}
+
+label.email-label {
+    position: relative;
+  }
+  
+label.email-label:before {
+    z-index: 2;
+    content: "";
+    position: absolute;
+    left: 35px;
+    top: 26.33px;
+    bottom: 0;
+    width: 17.15px;
+    height: 14.65px;
+    background: url("../public/emailLogo.svg");
+    background-repeat: no-repeat;
+}
+.input-email::placeholder{
+    color: #fff;
+    font-family: 'Geomanist', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+}
+.input-email{
+    padding-top: 25px !important;
+    padding-left:  65px !important;
+}
+
+

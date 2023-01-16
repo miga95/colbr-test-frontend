@@ -1,0 +1,141 @@
+.question-container{
+    width: 1100px;
+    height: 179px;
+    margin: auto;
+    margin-top: 297px;
+}
+.question-container h1{
+    text-align: center;
+}
+.response-container{
+    display: flex;
+    margin: auto;
+    margin-top: 60px;
+    width: 450px;
+    justify-content: space-between;
+}
+.button-oui, .button-non{
+    width: 210px;
+    height: 70px;
+    padding: 25px 35px;
+    border: none;
+    border-radius: 200px;
+    position: relative;
+    z-index: 1;
+    background-color: #1C1E33;
+    color: white;
+    font-size: 20px;
+}
+
+.background-container{
+    background-image:  linear-gradient(194.04deg, #1C337F 0%, #DF2A6B 100%);
+    border-radius: 200px;
+    padding: 1px;
+    position: relative;
+}
+
+.bottom-container{
+    margin: auto;
+    margin-top: 167px;
+    width: 859px;
+    border-top: 1px solid#0E0F18;
+    display: flex;
+    justify-content: end;
+
+}
+
+.action-buttons-container{
+    display: flex;
+    justify-content: space-between;
+    width: 262px;
+    margin-top: 28px;
+}
+
+.button-cancel{
+    width: 114px;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 200px;
+    background-color: #1C1E33;
+    color: white;
+    font-size: 15px;
+}
+
+
+.button-continue{
+    width: 128px;
+    background: linear-gradient(194.04deg, #1C337F 0%, #DF2A6B 100%);
+    color: white;
+    font-size: 15px;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 200px;
+    font-size: 15px;
+}
+
+/* question2 */
+.question2-container{
+    margin-top: 147px;
+    text-align: center;
+}
+
+.response2-container{
+    margin: auto;
+    margin-top: 60px;
+    width: 450px;
+    height: 308px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.known-products, .known-products button{
+    width: 100%;
+}
+.button-product{
+    width: 210px;
+    height: 70px;
+    padding: 25px 35px;
+    border: none;
+    border-radius: 200px;
+    position: relative;
+    z-index: 1;
+    background-color: #1C1E33;
+    color: white;
+    font-size: 20px;
+}
+
+.bottom-container.question2{
+    margin-top: 80px;
+}
+.selected{
+    background:  linear-gradient(194.04deg, #1C337F 0%, #DF2A6B 100%) ;
+}
+
+.end-container h1{
+    text-align: center;
+    margin-top: 147px;
+}
+.button-back{
+    text-align: center;
+    margin: auto;
+    width: 450px;
+    height: 70px;
+    padding: 25px 35px;
+    border: none;
+    border-radius: 200px;
+    position: relative;
+    z-index: 1;
+    background-image:  linear-gradient(194.04deg, #1C337F 0%, #DF2A6B 100%);
+
+    color: white;
+    font-size: 20px;
+}
+
+.end-background-container{
+    margin: auto;
+    margin-top: 219px;
+    width: 450px;
+    background-image:  linear-gradient(194.04deg, #1C337F 0%, #DF2A6B 100%);
+    border-radius: 200px;
+}

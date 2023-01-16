@@ -1,0 +1,20 @@
+.login-nav{
+    height: 125.03px;
+    background-color: #25273E ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.login-page-logo{
+    margin-top: 40px;
+    margin: auto;
+}
+
+.user-nav{
+    height: 125.03px;
+    align-items: center;
+}
+.user-page-logo{
+    margin-top: 40px;
+    margin-left: 30px;
+}

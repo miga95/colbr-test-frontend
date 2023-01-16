@@ -1,0 +1,14 @@
+.dashboard h1{
+    text-align: center;
+    margin-top: 45px;
+}
+.question1-container, .question2-container{
+    margin-top: 100px;
+}
+.return-loginpage-container{
+    margin: auto;
+    margin-top: 113.5px;
+    width: 450px;
+    background-image:  linear-gradient(194.04deg, #1C337F 0%, #DF2A6B 100%);
+    border-radius: 200px;
+}
